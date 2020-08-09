@@ -2,23 +2,81 @@
     <head>
         <title>MI PRIMERA PAGINA</title>
     </head>
+    <style>
+        body {
+            background-color: rgba(34, 21, 16, 0.637);
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        
+
+        #p1{
+            color: cornsilk;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        #p2 {
+            color: rgb(8, 185, 8);
+            font-family: Verdana, Tahoma, sans-serif;
+        }
+
+        #p3 {
+            color: rgb(216, 136, 39);
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        h1 {
+            font-size: 5rem;
+            font-family: cursive;
+        }
+
+        h2 {
+            font-size: 2rem;
+            color: rgb(97, 21, 15);
+            font-family: serif;
+        }
+        
+        
+    </style>
     <body>
         <h1>Datos Curiosos Sobre El Mundo</h1>
-        <h2>Los osjos hacen mas ejercicio que las piernas</h2>
-        <p>Los músculos de nuestros ojos se mueven mucho más de lo que imaginas… ¡Aproximadamente 100.000 veces al día!<br>
-            Para que te des una idea de cuánto es eso, deberías saber esta relación: para que los músculos de la pierna<br>
-             hagan la misma cantidad de ejercicio, deberías caminar aproximadamente 80 km por día.</p>
+        <h2>Los ojos hacen mas ejercicio que las piernas</h2>
+        <p id="p1">Los músculos de nuestros ojos se mueven mucho más de lo que imaginas… ¡Aproximadamente 100.000 veces al día!<br>
+                Para que te des una idea de cuánto es eso, deberías saber esta relación: para que los músculos de la pierna<br>
+                hagan la misma cantidad de ejercicio, deberías caminar aproximadamente 80 km por día.</p>
         
-        <h3>El corazon podria mover un coche</h3>
-        <p>Más allá de la fuerza espiritual, el corazón es un órgano sumamente poderoso. De hecho, la presión que genera<br> 
+        <h2>El corazon podria mover un coche</h2>
+        <p id="p2">Más allá de la fuerza espiritual, el corazón es un órgano sumamente poderoso. De hecho, la presión que genera<br> 
             al bombear sangre podría, si saliera del cuerpo, alcanzar los 10 metros de distancia.<br>
-
             Para que te des una idea, la potencia generada al día por un corazón bastaría para mover un coche durante 32 kilómetros.</p>
         
-        <h4>Los hombres y mujeres escuchan de manera diferente</h4>
-        <p>La manera en que los hombres y las mujeres piensan, actúan y toman decisiones es diferente y esto es bien sabido. Los investigadores<br>
-             de la Escuela de Medicina de la Universidad de Indiana descubrieron que estas diferencias se aplican incluso en la manera en que ambos<br>
-              sexos escuchan. Los hombres procesan sonidos con un solo lado del lóbulo temporal del cerebro, mientras que las mujeres usan ambos<br>
-               lados para este propósito.</p>
+        <h2>Los hombres y mujeres escuchan de manera diferente</h2>
+        <p id="p3">La manera en que los hombres y las mujeres piensan, actúan y toman decisiones es diferente y esto es bien sabido. Los investigadores<br>
+                de la Escuela de Medicina de la Universidad de Indiana descubrieron que estas diferencias se aplican incluso en la manera en que ambos<br>
+                sexos escuchan. Los hombres procesan sonidos con un solo lado del lóbulo temporal del cerebro, mientras que las mujeres usan ambos<br>
+                lados para este propósito.</p>
+                <div><h2>REGISTRETE AQUI:</h2></div>
+            <form>
+                <div><label>Nombre:</label><input type="text" placeholder="Escriba su nombre"></div>
+                <div><label>apellidos</label><input type="text" placeholder="Ecriba sus apellidos"></div>
+            </form>
+
+            <form>
+                <div><label>sexo:</label></div>
+                <div><label>mujer:</label>
+                <input type="radio" name="genero" id="">
+                <label>hombre:</label>
+                <input type="radio" name="genero" id=""></div>
+            </form>
+
+                
+            <form>
+                <div><label>Correo electronico</label>
+                <input type="text" placeholder="Escriba su correo electronico: "></div>
+                <div><label>Numuero de celular</label>
+                <input type="text" placeholder="Escriba su numero de celular: "></div>
+            </form>    
+
+                <button type="reset">Registrar</button>&nbsp;&nbsp;<button type="reset">Cancelar</button>
     </body>
 </html>
