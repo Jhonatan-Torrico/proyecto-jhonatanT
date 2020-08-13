@@ -17,12 +17,15 @@
     </head>
     
     <body>
-        <div class="heder">
+        <div class="heder" id="myheder">
             <a href="index.html">MENU PRINCIPAL</a>
             <a href="#">VER MAS</a>
             <div class="dere">
             <a href="form.html">REGISTRARSE</a>
             <a href="#">INICIAR SECION</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
             </div> 
         </div>
         <div>
@@ -59,7 +62,16 @@
             sexos escuchan. Los hombres procesan sonidos con un solo lado del lóbulo temporal del cerebro, mientras que las mujeres usan ambos<br>
             lados para este propósito.</p>
         </div>
-        
+        <script>
+            function myFunction() {
+                var x = document.getElementById("myheder");
+                if (x.className === "heder") {
+                x.className += "responsive";
+                } else {
+                x.className = "heder";
+                }
+            }
+        </script> 
         
     </body>
 </html>
